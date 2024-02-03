@@ -10,7 +10,8 @@ defmodule PhxTemplate1711.Application do
     children = [
       PhxTemplate1711Web.Telemetry,
       PhxTemplate1711.Repo,
-      {DNSCluster, query: Application.get_env(:phx_template_1_7_11, :dns_cluster_query) || :ignore},
+      {DNSCluster,
+       query: Application.get_env(:phx_template_1_7_11, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: PhxTemplate1711.PubSub},
       # Start the Finch HTTP client for sending emails
       {Finch, name: PhxTemplate1711.Finch},

@@ -2,7 +2,9 @@ defmodule PhxTemplate1711Web.ErrorJSONTest do
   use PhxTemplate1711Web.ConnCase, async: true
 
   test "renders 404" do
-    assert PhxTemplate1711Web.ErrorJSON.render("404.json", %{}) == %{errors: %{detail: "Not Found"}}
+    assert PhxTemplate1711Web.ErrorJSON.render("404.json", %{}) == %{
+             errors: %{detail: "Not Found"}
+           }
   end
 
   test "renders 500" do
