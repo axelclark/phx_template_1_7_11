@@ -1,10 +1,11 @@
 defmodule PhxTemplate1711.AccountsTest do
   use PhxTemplate1711.DataCase
 
-  alias PhxTemplate1711.Accounts
-
   import PhxTemplate1711.AccountsFixtures
-  alias PhxTemplate1711.Accounts.{User, UserToken}
+
+  alias PhxTemplate1711.Accounts
+  alias PhxTemplate1711.Accounts.User
+  alias PhxTemplate1711.Accounts.UserToken
 
   describe "get_user_by_email/1" do
     test "does not return the user if the email does not exist" do

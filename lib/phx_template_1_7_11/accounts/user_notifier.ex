@@ -1,4 +1,5 @@
 defmodule PhxTemplate1711.Accounts.UserNotifier do
+  @moduledoc false
   import Swoosh.Email
 
   alias PhxTemplate1711.Mailer

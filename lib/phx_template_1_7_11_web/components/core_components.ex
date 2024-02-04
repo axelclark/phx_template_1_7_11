@@ -16,8 +16,9 @@ defmodule PhxTemplate1711Web.CoreComponents do
   """
   use Phoenix.Component
 
-  alias Phoenix.LiveView.JS
   import PhxTemplate1711Web.Gettext
+
+  alias Phoenix.LiveView.JS
 
   @doc """
   Renders a modal.

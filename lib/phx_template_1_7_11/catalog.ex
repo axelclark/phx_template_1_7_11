@@ -4,9 +4,9 @@ defmodule PhxTemplate1711.Catalog do
   """
 
   import Ecto.Query, warn: false
-  alias PhxTemplate1711.Repo
 
   alias PhxTemplate1711.Catalog.Product
+  alias PhxTemplate1711.Repo
 
   @doc """
   Returns the list of products.

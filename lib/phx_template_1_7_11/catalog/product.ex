@@ -1,5 +1,7 @@
 defmodule PhxTemplate1711.Catalog.Product do
+  @moduledoc false
   use Ecto.Schema
+
   import Ecto.Changeset
 
   schema "products" do

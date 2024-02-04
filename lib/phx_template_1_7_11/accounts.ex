@@ -4,9 +4,11 @@ defmodule PhxTemplate1711.Accounts do
   """
 
   import Ecto.Query, warn: false
-  alias PhxTemplate1711.Repo
 
-  alias PhxTemplate1711.Accounts.{User, UserToken, UserNotifier}
+  alias PhxTemplate1711.Accounts.User
+  alias PhxTemplate1711.Accounts.UserNotifier
+  alias PhxTemplate1711.Accounts.UserToken
+  alias PhxTemplate1711.Repo
 
   ## Database getters
 

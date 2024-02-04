@@ -1,4 +1,5 @@
 defmodule PhxTemplate1711Web.UserLoginLive do
+  @moduledoc false
   use PhxTemplate1711Web, :live_view
 
   def render(assigns) do

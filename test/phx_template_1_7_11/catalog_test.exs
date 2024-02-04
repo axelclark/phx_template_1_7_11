@@ -4,9 +4,9 @@ defmodule PhxTemplate1711.CatalogTest do
   alias PhxTemplate1711.Catalog
 
   describe "products" do
-    alias PhxTemplate1711.Catalog.Product
-
     import PhxTemplate1711.CatalogFixtures
+
+    alias PhxTemplate1711.Catalog.Product
 
     @invalid_attrs %{description: nil, title: nil, price: nil, views: nil}
 

@@ -1,8 +1,9 @@
 defmodule PhxTemplate1711Web.UserAuth do
+  @moduledoc false
   use PhxTemplate1711Web, :verified_routes
 
-  import Plug.Conn
   import Phoenix.Controller
+  import Plug.Conn
 
   alias PhxTemplate1711.Accounts
 

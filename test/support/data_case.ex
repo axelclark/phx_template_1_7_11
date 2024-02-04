@@ -18,12 +18,12 @@ defmodule PhxTemplate1711.DataCase do
 
   using do
     quote do
-      alias PhxTemplate1711.Repo
-
       import Ecto
       import Ecto.Changeset
       import Ecto.Query
       import PhxTemplate1711.DataCase
+
+      alias PhxTemplate1711.Repo
     end
   end
 

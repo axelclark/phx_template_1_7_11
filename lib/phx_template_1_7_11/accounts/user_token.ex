@@ -1,6 +1,9 @@
 defmodule PhxTemplate1711.Accounts.UserToken do
+  @moduledoc false
   use Ecto.Schema
+
   import Ecto.Query
+
   alias PhxTemplate1711.Accounts.UserToken
 
   @hash_algorithm :sha256

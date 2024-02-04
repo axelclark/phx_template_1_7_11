@@ -1,9 +1,10 @@
 defmodule PhxTemplate1711Web.UserSettingsLiveTest do
   use PhxTemplate1711Web.ConnCase, async: true
 
-  alias PhxTemplate1711.Accounts
   import Phoenix.LiveViewTest
   import PhxTemplate1711.AccountsFixtures
+
+  alias PhxTemplate1711.Accounts
 
   describe "Settings page" do
     test "renders settings page", %{conn: conn} do

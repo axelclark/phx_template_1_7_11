@@ -24,9 +24,9 @@ defmodule PhxTemplate1711Web do
       use Phoenix.Router, helpers: false
 
       # Import common connection and controller functions to use in pipelines
-      import Plug.Conn
       import Phoenix.Controller
       import Phoenix.LiveView.Router
+      import Plug.Conn
     end
   end
 
@@ -42,8 +42,8 @@ defmodule PhxTemplate1711Web do
         formats: [:html, :json],
         layouts: [html: PhxTemplate1711Web.Layouts]
 
-      import Plug.Conn
       import PhxTemplate1711Web.Gettext
+      import Plug.Conn
 
       unquote(verified_routes())
     end

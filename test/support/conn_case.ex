@@ -20,14 +20,14 @@ defmodule PhxTemplate1711Web.ConnCase do
   using do
     quote do
       # The default endpoint for testing
-      @endpoint PhxTemplate1711Web.Endpoint
-
       use PhxTemplate1711Web, :verified_routes
 
       # Import conveniences for testing with connections
-      import Plug.Conn
       import Phoenix.ConnTest
       import PhxTemplate1711Web.ConnCase
+      import Plug.Conn
+
+      @endpoint PhxTemplate1711Web.Endpoint
     end
   end
 

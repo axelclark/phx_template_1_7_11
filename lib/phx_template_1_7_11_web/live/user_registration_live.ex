@@ -1,4 +1,5 @@
 defmodule PhxTemplate1711Web.UserRegistrationLive do
+  @moduledoc false
   use PhxTemplate1711Web, :live_view
 
   alias PhxTemplate1711.Accounts
