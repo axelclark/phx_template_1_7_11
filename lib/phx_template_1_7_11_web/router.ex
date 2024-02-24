@@ -22,6 +22,8 @@ defmodule PhxTemplate1711Web.Router do
 
     get "/", PageController, :home
 
+    resources "/orders", OrderController
+
     live "/products", ProductLive.Index, :index
     live "/products/new", ProductLive.Index, :new
     live "/products/:id/edit", ProductLive.Index, :edit
